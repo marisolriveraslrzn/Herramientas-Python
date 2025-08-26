@@ -23,5 +23,6 @@ Aplicación embebida con Bottle que simula el control de dispositivos IoT desde 
 ## Ejecución
 ```bash
 py control_bot.py
-
+```
 ![Ejecución](./bottle.jpeg)
+
