@@ -12,7 +12,8 @@ Un **framework** es una estructura de software que define cómo construir una ap
 
 ## 🏆 Los 5 Mejores Frameworks de Python
 
-### 1. 🦄 Django
+### 1.Django
+![Django Logo](https://static.djangoproject.com/img/logos/django-logo-negative.png)
 
 - **Tipo**: Framework completo (full-stack)
 - **Ideal para**: Aplicaciones grandes, escalables y seguras
@@ -25,8 +26,8 @@ Un **framework** es una estructura de software que define cómo construir una ap
 
 ---
 
-### 2. 🔥 Flask
-
+### 2. Flask
+![Flask Logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg)
 - **Tipo**: Microframework
 - **Ideal para**: Proyectos pequeños o APIs REST
 - **Incluye**: Enrutamiento, servidor local, plantillas Jinja2
@@ -38,8 +39,8 @@ Un **framework** es una estructura de software que define cómo construir una ap
 
 ---
 
-### 3. 🌐 Web2Py
-
+### 3. Web2Py
+![Flask Logo](https://www.web2py.com/init/static/images/logo_db.png)
 - **Tipo**: Framework full-stack
 - **Ideal para**: Aplicaciones web con enfoque educativo o empresarial
 - **Incluye**: IDE web, ORM, sistema de tickets de errores
@@ -51,8 +52,8 @@ Un **framework** es una estructura de software que define cómo construir una ap
 
 ---
 
-### 4. 🍾 Bottle
-
+### 4. Bottle
+![Bottle Logo](https://www.fullstackpython.com/img/logos/bottle.png)
 - **Tipo**: Microframework
 - **Ideal para**: Aplicaciones simples y embebidas
 - **Incluye**: Enrutador, servidor HTTP, soporte para plantillas
@@ -64,8 +65,8 @@ Un **framework** es una estructura de software que define cómo construir una ap
 
 ---
 
-### 5. 🍒 CherryPy
-
+### 5. CherryPy
+![CherryPy Logo](https://quintagroup.com/cms/python/images/cherrypy.png/@@images/image.png)
 - **Tipo**: Framework minimalista orientado a objetos
 - **Ideal para**: Aplicaciones web con arquitectura modular
 - **Incluye**: Servidor HTTP multihilo, manejo de sesiones, caché
