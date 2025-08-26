@@ -1,43 +1,73 @@
-# TareasModular-CherryPy
+# 📋 TareasModular-CherryPy
 
-## Descripción
-Backend modular con CherryPy para gestionar tareas. Ideal para enseñar arquitectura orientada a objetos, sesiones y rendimiento web.
+## 🧠 ¿Qué es?
 
-## Características
-- Arquitectura modular (MVC simplificado)
-- Servidor multihilo con CherryPy
-- Manejo de sesiones en memoria
-- Integración con frontend externo (HTML estático o SPA)
-- Código limpio y extensible
+Un backend modular en Python con CherryPy que permite **crear, editar y marcar tareas como completadas** desde una interfaz web. Ideal para enseñar arquitectura orientada a objetos, manejo de sesiones y rendimiento web.
 
-## Diagrama de clases
+---
 
-+-------------+ +-------------------+ | Task |<----->| TaskController | +-------------+ +-------------------+ | -title | | -tasks: list | | -done | | +add(title) | | +toggle() | | +toggle(i) | +-------------+ | +index() | +-------------------+
+## 🎯 ¿Qué vas a lograr?
 
+Al ejecutar el proyecto, verás una interfaz como esta:
 
+- ✅ Tareas completadas con íconos verdes  
+- ❌ Tareas pendientes con íconos rojos  
+- 📝 Campo para agregar nuevas tareas  
+- 🔄 Enlace “Cambiar” para modificar el estado de cada tarea  
 
-## Actividad: “Organiza tu semana”
-1. Agrega tareas con prioridad y fecha límite.
-2. Integra frontend con AJAX o Fetch API.
-3. Simula usuarios con sesiones separadas.
-4. Compara rendimiento con Flask usando `timeit` o `ab`.
+> La interfaz muestra una lista interactiva de tareas con estado visual y edición en tiempo real. Perfecta para actividades didácticas o demostraciones técnicas.
 
-## Comparación con Flask
-
-| Característica         | CherryPy               | Flask                  |
-|------------------------|------------------------|------------------------|
-| Arquitectura modular   | Nativa (clases + rutas)| Manual (Blueprints)    |
-| Multihilo              | Sí                     | Depende del servidor   |
-| Sesiones               | RAM / archivo / DB     | Cookies / extensiones  |
-| Rendimiento (local)    | 🔥 Rápido en RAM        | ⚡ Ligero pero depende  |
-| Curva de aprendizaje   | Media                  | Baja                   |
-
+---
 ## Ejecución
 ```bash
 py app.py
 ```
+- O accede desde tu navegador directamen a: http://localhost:8080/tasks
+  ![Panel de administración](./tareas.jpeg)
 
-Prueba accediendo directamente a:
-```bash
-http://127.0.0.1:8080/tasks
+## 🧩 Características técnicas
+
+- Arquitectura modular (modelo + controlador)
+- Servidor HTTP multihilo con CherryPy
+- Manejo de sesiones en memoria
+- Integración con frontend externo (HTML estático o SPA)
+- Código limpio, extensible y didáctico
+
+---
+
+## 🧪 Diagrama de clases
+
+```mermaid
+classDiagram
+    class Task {
+        - title: str
+        - done: bool
+        + toggle()
+    }
+
+    class TaskController {
+        - tasks: list
+        + index()
+        + add(title)
+        + toggle(i)
+    }
+
+    TaskController --> Task
 ```
+
+---
+## ⚔️ Comparación CherryPy vs Flask
+| Característica         | CherryPy                          | Flask                          |
+|------------------------|-----------------------------------|--------------------------------|
+| Modularidad            | Nativa (clases + rutas)           | Manual (Blueprints)            |
+| Multihilo              | ✅ Sí                             | ⚠️ Depende del servidor         |
+| Sesiones               | RAM / archivo / DB                | Cookies / extensiones          |
+| Rendimiento (local)    | 🔥 Rápido en RAM                  | ⚡ Ligero pero variable         |
+| Curva de aprendizaje   | 📈 Media                          | 📉 Baja                         |
+
+---
+## 🧠 Actividad sugerida: “Organiza tu semana”
+- Agregá tareas con prioridad y fecha límite
+- Simulá usuarios con sesiones separadas
+- Personalizá el frontend con íconos, colores o animaciones
+- Compará rendimiento con Flask usando timeit o ab
