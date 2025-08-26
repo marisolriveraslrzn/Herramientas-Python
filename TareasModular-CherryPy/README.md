@@ -22,7 +22,8 @@ Al ejecutar el proyecto, verás una interfaz como esta:
 ```bash
 py app.py
 ```
-- O accede desde tu navegador directamen a: http://localhost:8080/tasks
+- O accede directamente desde tu ordenador: http://localhost:8080/tasks
+
   ![Panel de administración](./tareas.jpeg)
 
 ## 🧩 Características técnicas
@@ -71,3 +72,4 @@ classDiagram
 - Simulá usuarios con sesiones separadas
 - Personalizá el frontend con íconos, colores o animaciones
 - Compará rendimiento con Flask usando timeit o ab
+
