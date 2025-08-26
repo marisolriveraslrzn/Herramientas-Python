@@ -1,4 +1,4 @@
-# Frameworks de Python | Los 5 Mejores Frameworks para Desarrollo Web
+# Los 5 Mejores Frameworks para Desarrollo Web
 
 Este documento presenta los **5 frameworks más populares de Python** para desarrollo web, explicando sus características, ventajas y casos de uso. Ideal para estudiantes, docentes y desarrolladores que buscan elegir el framework adecuado para sus proyectos.
 
