@@ -99,4 +99,10 @@ Un **framework** es una estructura de software que define cómo construir una ap
 
 ---
 
-✨ Este archivo está pensado para uso educativo. Podés adaptarlo, ampliarlo o gamificarlo para tus clases o portafolio. 
+🪪 Licencia
+© Marisol Rivera Solórzano
+- Contenido educativo distribuido bajo licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
+Se permite su uso y adaptación con atribución, sin fines comerciales y compartiendo bajo la misma licencia.
+
+---
+
