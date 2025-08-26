@@ -41,5 +41,6 @@ ClimaAPI-Flask es una API REST construida con Flask que devuelve datos meteorol�
    
    http://127.0.0.1:5000/weather/Madrid
 
-5. Tambien podes acceder a la visualización en tu navegador
-index.img
+5. Visualización de datos con navegador
+
+![Visualizacion de datos](./index.jpeg)
